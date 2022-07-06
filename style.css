@@ -102,35 +102,46 @@ h1 {
 
 .flexible-container {
     display: flex;
+    margin-top: 50px;
 }
 
-.email-div{
+.email-div {
     justify-content: center;
     background-color: rgb(202, 177, 181);
     padding: 5% 10%;
     margin: 0% 20%;
+    border-radius: 10px;
 }
 
-.input-textx{
+.input-textx {
     height: 40px;
     width: 200px;
+    font-size: 18px;
+    padding-left: 10px;
 }
 
-.btn-text{
+.btn-text {
     height: 45px;
     width: 200px;
     color: white;
     background-color: red;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
 }
 
-.get-update-section{
+.get-update-section {
     text-align: center;
     margin-bottom: 200px;
 }
 
-.footer-section{
+.footer-section {
     width: 100%;
     text-align: center;
     background-color: darkslategray;
     padding-bottom: 50px;
+}
+
+#plan-details {
+    padding-left: 200px;
+    padding-right: 200px;
 }
